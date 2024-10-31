@@ -1,73 +1,82 @@
 *{
     margin: 0px;
 }
+
 .logo{
     position: relative;
     top: 10px;
+    margin-left: 40px;
 }
-header>ul{
+
+header{
     display: flex;
-    width: 100%;
-    height: 50px;
-    margin: 0px 115px; 
+    height: 45px;
+    margin: 0px 110px;
     align-items: center;
     justify-content: space-between;
 }
 
-.search_bar>li{
-        padding-right:340px;
+.search_bar{
+    position: relative;
+    top: 9px;
+    right: 130px;
 }
 
-.search_bar>li>input{
-    height: 37px;
-    width: 540px;
+.search_bar>input{
+    height: 35px;
+    width: 550px;
     font-size: 14px;
     border-radius: 4px;
     padding: 0px 40px;
-    border: 1px solid rgba(214, 207, 207, 0.925)
+    border: 1px solid rgba(229, 223, 223, 0.9)
 }
 
 .search_bar>img{
     position: relative;
-    left: 14px;
-    top: 29px;
+    left: 30px;
+    top: 2px;
     height: 13px;
     width: 13px;
 }
-.location{
-    display: flex;
-    position:relative;
-    top: 10px;
-    right:30px;
 
+.portion2_content{
+    display: flex;
+    margin: 0px 70px;
 }
 
-.location>li>select{
-    font-size: medium;
-    width: 95px;
+
+.location{
+    position:relative;
+    top: 20px;
+    right:5px;
+}
+
+.location>select{
+    font-size: 15px;
+    width: 90px;
     border: none;
 }
+
 .button{
     position: relative;
-    right: 30px;
-    top: 10px;
+    left: 20px;
+    top: 15px;
 }
+
 .button>button{
+    height: 26px;
+    width: 65px;
     background-color: rgb(248, 68, 100);
     color: white;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
-    font-size: 14px;
-    padding: 04px 13px;
- 
+    font-size: 12px;
 }
+
 .image{
-    padding: 0px 120px;
     position: relative;
-    top: 20px;
-    right: 150px;
-    height: 40px;
-    width: 50px;
+    top:15px;
+    left: 40px;
 }
 
 
@@ -87,7 +96,7 @@ nav a{
     position: relative;
     left: 100px;
     color: rgb(51, 51, 51);
-    padding: 0px 10px;
+    padding: 0px 8px;
     text-decoration: none;
 }
 
@@ -96,24 +105,76 @@ nav a{
     font-size: 14px;
 }
 .nav-links2{
-    margin: 0px 190px; 
+    margin-right: 190px;
     font-size: 12px;
     font-family: sans-serif;
-}
+} 
 
 .image-marquee {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing: border-box;
     background-color: #ebe8e8e4;
   }
 
-  .marquee-content img{
+.marquee-content img{
+    overflow-x: hidden;
     margin:10px 3px;
+    margin-bottom:4px;
     border-radius: 10px;
   }
 
-.see_all{
+.Recommended_section{
     display: flex;
+    margin: 30px 150px;
     justify-content: space-between;
+    font-family: Roboto;
+}
+.Recommended_section a{
+    position: relative;
+    top: 10px;
+    color:rgb(220, 53, 88);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.movie_cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 120px; 
+    position: relative; 
+    bottom:20px 
+}
+
+.movie_cards img{
+    width: 220px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.movie_cards h4{
+    margin: 10px 2px 10px;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 510;
+
+}
+
+.movie_cards a{
+    color: grey;
+    text-decoration:none;
+    font-family: Roboto;
+}
+
+.boking_stream{
+    margin: 70px 145px;
+    width: auto;
+}
+
+.boking_stream img{
+    height: 100px;
+    width: 1230px;
 }
