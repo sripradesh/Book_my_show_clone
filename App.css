@@ -171,10 +171,129 @@ nav a{
 
 .boking_stream{
     margin: 70px 145px;
-    width: auto;
 }
 
 .boking_stream img{
     height: 100px;
     width: 1230px;
+}
+
+.live_events{
+    display: flex;
+    padding: 0px 120px;
+    justify-content: space-evenly;
+    position: relative; 
+}
+
+
+.live_events img{
+    border-radius: 10px;
+    height: 220px;
+    width: 220px;
+    position: relative;
+    bottom: 10px;
+}
+
+.Premieres_content{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(43, 49, 72);
+}
+
+.Premieres_title{
+    display: flex;
+    margin: 40px 145px;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 510;
+    color: aliceblue;
+}
+
+.Premieres_title img{
+    height: 65px;
+    width: 65px;
+}
+
+.Premieres_title h3{
+    margin: 10px 10px;
+}
+
+.Premieres_title a{
+    position: relative;
+    top: 40px;
+    right:145px;
+    text-decoration:none;
+    font-family: Roboto;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+
+.Premiere_section1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 150px;
+    font-family: Roboto;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.Premiere_section1 a{
+    position: relative;
+    top: 30px;
+    color:rgb(220, 53, 88);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.Premiere_section1 h2{
+    margin:2px 3px;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 510;
+    color: whitesmoke;
+}
+
+.Premiere_section2 a{
+    margin: 0px 153px;
+    color: whitesmoke;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Premiere_shows{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 120px; 
+    position: relative; 
+    bottom:20px 
+}
+
+.Premiere_shows img{
+    width: 220px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.Premiere_shows h4{
+    margin: 10px 2px 10px;
+    color: whitesmoke;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 510;
+
+}
+
+.Premiere_shows a{
+    color: whitesmoke;
+    text-decoration:none;
+    font-family: Roboto;
 }
